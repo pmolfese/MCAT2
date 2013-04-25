@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addFiles = id; 
+                changeChannels = id; 
+                dismissChannels = id; 
+                loadChannels = id; 
+                moveDn = id; 
+                moveUp = id; 
+                openCloseLog = id; 
+                processFiles = id; 
+                removeFiles = id; 
+                restoreDefaultChannels = id; 
+                saveChannels = id; 
+                saveLog = id; 
+                setDefault = id; 
+                updateSoftware = id; 
+            }; 
+            CLASS = MyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                DataFiles = id; 
+                adultInfantToggle = id; 
+                averageChannels = id; 
+                baseline = id; 
+                channelController = id; 
+                channelWindow = id; 
+                debugBox = id; 
+                debugWindow = id; 
+                mainWindow = id; 
+                mergeFile = id; 
+                myTable = id; 
+                numberOfChannels = id; 
+                processButton = id; 
+                progressBar = id; 
+                tempCheck = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}
